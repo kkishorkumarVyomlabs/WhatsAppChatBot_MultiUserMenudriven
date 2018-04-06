@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AEChatBotMenu>
+	<MenuID></MenuID>
+	<MenuName></MenuName>
+	<DisplayText></DisplayText>
+	<StartMenuNodeId></StartMenuNodeId>
+	<MenuNode MenuLevel = "1_1">		
+		<ContainerDisplayNode>
+			<UniqueId>000111</UniqueId>
+			<ChildId>1_2</ChildId>
+			<Name>Asia</Name>
+			<Position>1</Position>
+			<DisplayText>Asia</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000112</UniqueId>
+			<ChildId>2_2</ChildId>
+			<Name>Africa</Name>
+			<Position>2</Position>
+			<DisplayText>Africa</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000113</UniqueId>
+			<ChildId>3_2</ChildId>
+			<Name>Europe</Name>
+			<Position>3</Position>
+			<DisplayText>Europe</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000114</UniqueId>
+			<ChildId>4_2</ChildId>
+			<Name>North America</Name>
+			<Position>4</Position>
+			<DisplayText>North America</DisplayText>					
+		</ContainerDisplayNode>		
+	</MenuNode>
+	
+	<MenuNode MenuLevel = "1_2" ParentLevel = "1_1">
+		<ContainerDisplayNode>
+			<UniqueId>000115</UniqueId>
+			<ChildId>1_2_1</ChildId>
+			<Name>India</Name>
+			<Position>1</Position>
+			<DisplayText>India</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000116</UniqueId>
+			<ChildId>1_2_2</ChildId>
+			<Name>Pakistan</Name>
+			<Position>2</Position>
+			<DisplayText>Pakistan</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000117</UniqueId>
+			<ChildId></ChildId>
+			<Name>Japan</Name>
+			<Position>3</Position>
+			<DisplayText>Japan</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+		
+	<MenuNode MenuLevel = "2_2" ParentLevel = "1_1">
+		<ContainerDisplayNode>
+			<UniqueId>000118</UniqueId>
+			<ChildId></ChildId>
+			<Name>Nigeria</Name>
+			<Position>1</Position>
+			<DisplayText>Nigeria</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000119</UniqueId>
+			<ChildId></ChildId>
+			<Name>Ethiopia</Name>
+			<Position>2</Position>
+			<DisplayText>Ethiopia</DisplayText>
+		</ContainerDisplayNode>		
+	</MenuNode>
+		
+	<MenuNode MenuLevel = "3_2" ParentLevel = "1_1">
+		<ContainerDisplayNode>
+			<UniqueId>000120</UniqueId>
+			<ChildId></ChildId>
+			<Name>Russian Federation</Name>
+			<Position>1</Position>
+			<DisplayText>Russian Federatio</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000121</UniqueId>
+			<ChildId></ChildId>
+			<Name>Germany</Name>
+			<Position>2</Position>
+			<DisplayText>Germany</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+		
+	<MenuNode MenuLevel = "4_2" ParentLevel = "1_1">
+		<ContainerDisplayNode>
+			<UniqueId>000122</UniqueId>
+			<ChildId></ChildId>
+			<Name>United States</Name>
+			<Position>1</Position>
+			<DisplayText>United States</DisplayText>
+		</ContainerDisplayNode>
+		<ActionNodeData>
+			<ActionId>1</ActionId>
+			<ContainerUniqueId>000114</ContainerUniqueId>
+			<ActionClass>UniqueId of United State is 000122</ActionClass>
+			<InitMethod>init</InitMethod>
+			<DataCollectMethod>dataCollection</DataCollectMethod>
+			<DataValidationMethod>validate</DataValidationMethod>
+			<ProcessMethod>processChat</ProcessMethod>
+			<OutputMethod>output</OutputMethod>
+			<CloseMethod>close</CloseMethod>
+		</ActionNodeData>
+		
+		<ContainerDisplayNode>
+			<UniqueId>000123</UniqueId>
+			<ChildId></ChildId>
+			<Name>Mexico</Name>
+			<Position>2</Position>
+			<DisplayText>Mexico</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+	
+	<MenuNode MenuLevel = "1_2_1" ParentLevel = "1_2">
+		<ContainerDisplayNode>
+			<UniqueId>000124</UniqueId>
+			<ChildId>1_2_1_1</ChildId>
+			<Name>Maharashtra</Name>
+			<Position>1</Position>
+			<DisplayText>Maharashtra</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000125</UniqueId>
+			<ChildId>1_2_1_2</ChildId>
+			<Name>Gujrat</Name>
+			<Position>2</Position>
+			<DisplayText>Gujrat</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000126</UniqueId>
+			<ChildId></ChildId>
+			<Name>Bihar</Name>
+			<Position>3</Position>
+			<DisplayText>Bihar</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+
+	<MenuNode MenuLevel = "1_2_1_1" ParentLevel = "1_2_1">
+		<ContainerDisplayNode>
+			<UniqueId>000127</UniqueId>
+			<ChildId></ChildId>
+			<Name>Pune</Name>
+			<Position>1</Position>
+			<DisplayText>Pune</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000128</UniqueId>
+			<ChildId></ChildId>
+			<Name>Mumbai</Name>
+			<Position>2</Position>
+			<DisplayText>Mumbai</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000129</UniqueId>
+			<ChildId></ChildId>
+			<Name>Nasik</Name>
+			<Position>3</Position>
+			<DisplayText>Nasik</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000130</UniqueId>
+			<ChildId></ChildId>
+			<Name>Nagpur</Name>
+			<Position>4</Position>
+			<DisplayText>Nagpur</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+		
+	<MenuNode MenuLevel = "1_2_1_2" ParentLevel = "1_2_1">
+		<ContainerDisplayNode>
+			<UniqueId>000131</UniqueId>
+			<ChildId></ChildId>
+			<Name>Surat</Name>
+			<Position>1</Position>
+			<DisplayText>Surat</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000132</UniqueId>
+			<ChildId></ChildId>
+			<Name>Badoda</Name>
+			<Position>2</Position>
+			<DisplayText>Badoda</DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000133</UniqueId>
+			<ChildId></ChildId>
+			<Name>Ahamadabad</Name>
+			<Position>3</Position>
+			<DisplayText>Ahamadabad</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+
+	<MenuNode MenuLevel = "1_2_2" ParentLevel = "1_2">
+		<ContainerDisplayNode>
+			<UniqueId>000134</UniqueId>
+			<ChildId></ChildId>
+			<Name>Islamabad </Name>
+			<Position>1</Position>
+			<DisplayText>Islamabad </DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000135</UniqueId>
+			<ChildId></ChildId>
+			<Name>Sindh </Name>
+			<Position>2</Position>
+			<DisplayText>Sindh </DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000136</UniqueId>
+			<ChildId></ChildId>
+			<Name>Balochistan </Name>
+			<Position>3</Position>
+			<DisplayText>Balochistan </DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+
+	<MenuNode MenuLevel = "1_2_2_1" ParentLevel = "1_2_2">
+		<ContainerDisplayNode>
+			<UniqueId>000137</UniqueId>
+			<ChildId></ChildId>
+			<Name>Lohi Bher </Name>
+			<Position>1</Position>
+			<DisplayText>Lohi Bher </DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000138</UniqueId>
+			<ChildId></ChildId>
+			<Name>Bhokar </Name>
+			<Position>2</Position>
+			<DisplayText>Bhokar </DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+		
+	<MenuNode MenuLevel = "1_2_2_2" ParentLevel = "1_2_2">
+		<ContainerDisplayNode>
+			<UniqueId>000139</UniqueId>
+			<ChildId></ChildId>
+			<Name>Badin </Name>
+			<Position>1</Position>
+			<DisplayText>Badin </DisplayText>
+		</ContainerDisplayNode>
+		<ContainerDisplayNode>
+			<UniqueId>000140</UniqueId>
+			<ChildId></ChildId>
+			<Name>Khairpur</Name>
+			<Position>2</Position>
+			<DisplayText>Khairpur</DisplayText>
+		</ContainerDisplayNode>
+	</MenuNode>
+	
+	
+	
+</AEChatBotMenu>
